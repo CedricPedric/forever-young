@@ -4,7 +4,8 @@ for b in range(1,11):
 
 for x in range(30, 0, -1):
    print(str(x))
-   print("De raket lanceerd")
+   if x == 1:
+       print("De raket lanceerd")
 
 
 for c in range(24):
@@ -13,5 +14,5 @@ for c in range(24):
     else:
         print(str(c) + " AM")
 
-for d in range(20,51,1):
+for d in range(20,50,1):
     print(d)
