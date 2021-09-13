@@ -16,3 +16,5 @@ for c in range(24):
 
 for d in range(20,50,1):
     print(d)
+
+days = ['ma', 'di', 'wo', 'do', 'vr', 'za', 'zo']
